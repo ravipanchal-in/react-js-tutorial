@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  background-color: rgb(85, 81, 134);
+  padding: 0.5rem 1rem 0.75rem;
+}
+.heading {
+  color: gold;
+  font-weight: 100;
+}
+.span {
+  font-weight: bold;
+}
+.paragraph {
+  color: #fff;
+}
