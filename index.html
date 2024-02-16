@@ -8,30 +8,7 @@
   </head>
   <body>
     <div id="root"></div>
-    <script
-      crossorigin
-      src="https://unpkg.com/react@18/umd/react.development.js"
-    ></script>
-    <script
-      crossorigin
-      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
-    ></script>
-    <script>
-      const heading = React.createElement("h1", { className: "heading" }, [
-        "Hello World from ",
-        React.createElement("span", { className: "span" }, "React JS!"),
-      ]);
-      const paragraph = React.createElement(
-        "p",
-        { className: "paragraph" },
-        "Lorem ipsum is simply a dummy text."
-      );
-      const container = React.createElement("div", { className: "container" }, [
-        heading,
-        paragraph,
-      ]);
-      const root = ReactDOM.createRoot(document.getElementById("root"));
-      root.render(container);
-    </script>
+
+    <script type="module" src="./index.js"></script>
   </body>
 </html>
